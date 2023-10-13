@@ -33,8 +33,8 @@ a:hover{
     text-decoration:overline;
     color: goldenrod;
 }
-li:active{
-    text-decoration:overline !important;
+.active{
+    text-decoration:overline;
     color: goldenrod !important;
 }
  a{
