@@ -33,7 +33,7 @@ a:hover{
     text-decoration:overline;
     color: goldenrod;
 }
-a:active{
+ul li a:active{
     text-decoration:overline !important;
     color: goldenrod !important;
 }

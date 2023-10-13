@@ -1,157 +1,223 @@
 <div class="container">
-    <div class="card">
-        <div class="row mt-5">
-            <div class="col content-1">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="../../assets//teeth4.jpg" class="d-block w-100" alt="img-1">
-                        <div class="carousel-caption d-md-block" *ngFor="let detail of dental">
-                          <h1>{{detail.title1}}</h1>
-                          <h2>{{detail.des1}}</h2>
-                            <p>{{detail.para1}}</p>
-                          <div class="button-align d-flex mb-5">
-                          <button class="Book d-flex">Book now  
-                            <div class="play">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><style>svg{fill:#1da672}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                            </div>
-                        </button>
-                        <button class="read d-flex">Read more 
-                            <div class="play1">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play"><style>svg{fill:white}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                            </div>
-                        </button>
-                        </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../../assets/teeth5.jpg" class="d-block w-100" alt="img-2">
-                        <div class="carousel-caption d-md-block" *ngFor="let detail of dental">
-                            <h1>{{detail.title2}}</h1>
-                            <h2>{{detail.des2}}</h2>
-                              <p>{{detail.para2}}</p>
-                            <div class="button-align d-flex mb-5">
-                            <button class="Book d-flex">Book now  
-                              <div class="play">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><style>svg{fill:#1da672}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          <button class="read d-flex ">Read more 
-                              <div class="play1">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play"><style>svg{fill:white}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          </div>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../../assets/teeth6.jpg" class="d-block w-100" alt="img-3">
-                        <div class="carousel-caption d-md-block" *ngFor="let detail of dental">
-                            <h1>{{detail.title3}}</h1>
-                            <h2>{{detail.des3}}</h2>
-                              <p>{{detail.para3}}</p>
-                            <div class="button-align d-flex mb-5">
-                            <button class="Book d-flex">Book now  
-                              <div class="play">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><style>svg{fill:#1da672}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          <button class="read d-flex ">Read more 
-                              <div class="play1">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play"><style>svg{fill:white}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          </div>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../../assets/teeth6.jpg" class="d-block w-100" alt="img-4">
-                        <div class="carousel-caption d-md-block" *ngFor="let detail of dental">
-                            <h1>{{detail.title4}}</h1>
-                            <h2>{{detail.des4}}</h2>
-                              <p>{{detail.para4}}</p>
-                            <div class="button-align d-flex mb-5">
-                            <button class="Book d-flex">Book now  
-                              <div class="play">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><style>svg{fill:#1da672}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          <button class="read d-flex ">Read more 
-                              <div class="play1">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play"><style>svg{fill:white}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          </div>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../../assets/teeth6.jpg" class="d-block w-100" alt="img-5">
-                        <div class="carousel-caption d-md-block" *ngFor="let detail of dental">
-                            <h1>{{detail.title5}}</h1>
-                            <h2>{{detail.des5}}</h2>
-                              <p>{{detail.para5}}</p>
-                            <div class="button-align d-flex mb-5">
-                            <button class="Book d-flex">Book now  
-                              <div class="play">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><style>svg{fill:#1da672}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          <button class="read d-flex ">Read more 
-                              <div class="play1">
-                                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play"><style>svg{fill:white}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                              </div>
-                          </button>
-                          </div>
-                          </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col content-2">
-                <h4 class="mt-5">Book an Appointment</h4>
-                <form action="/action_page.php" class="pr-5">
-                    <div class="row d-flex">
-                        <div class="col">
-                            <label>First Name:</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your first name*">
-                            </div>
-                        <div class="col">
-                            <label>Last Name:</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name*">
-                        </div>
-                    </div>
-                
-                    <label>Your Email Address:</label>
-                    <input type="email" id="email" name="email" placeholder="Your email address*">
-                    <label>Contact No:</label>
-                            <input type="tel" id="call" name="phone" placeholder="Your contact no*">
-        
-                            <div class="row d-flex">
-                                <div class="col">
-                                    <label>Date:</label>
-                                    <input type="date" id="date" name="date" placeholder="Appointment Date*">
-                                    </div>
-                                <div class="col">
-                                    <label>Time:</label>
-                                    <input type="time" id="time" name="time" placeholder="Appoiment Time*">
-                                </div>  
-                            </div>  
-                            <div class="row d-flex justify-content-center mb-5 mt-5">            
-                                <button class="Book d-flex">Book now  
-                                    <div class="play">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><style>svg{fill:#1da672}</style><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-                                    </div>
-                                </button>
-                   </div>
-                  </form>
-            </div>
-        </div>
-        </div>
+	<div class="card">
+		<div class="row mt-5">
+			<div class="col content-1">
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active"> <img src="../../assets//teeth4.jpg" class="d-block w-100" alt="img-1">
+							<div class="carousel-caption d-md-block" *ngFor="let detail of dental">
+								<h1>{{detail.title1}}</h1>
+								<h2>{{detail.des1}}</h2>
+								<p>{{detail.para1}}</p>
+								<div class="button-align d-flex mb-5">
+									<button class="Book d-flex">Book now
+										<div class="play">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+												<style>
+												svg {
+													fill: #1da672
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+									<button class="read d-flex">Read more
+										<div class="play1">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play">
+												<style>
+												svg {
+													fill: white
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item"> <img src="../../assets/teeth5.jpg" class="d-block w-100" alt="img-2">
+							<div class="carousel-caption d-md-block" *ngFor="let detail of dental">
+								<h1>{{detail.title2}}</h1>
+								<h2>{{detail.des2}}</h2>
+								<p>{{detail.para2}}</p>
+								<div class="button-align d-flex mb-5">
+									<button class="Book d-flex">Book now
+										<div class="play">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+												<style>
+												svg {
+													fill: #1da672
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+									<button class="read d-flex ">Read more
+										<div class="play1">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play">
+												<style>
+												svg {
+													fill: white
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item"> <img src="../../assets/teeth6.jpg" class="d-block w-100" alt="img-3">
+							<div class="carousel-caption d-md-block" *ngFor="let detail of dental">
+								<h1>{{detail.title3}}</h1>
+								<h2>{{detail.des3}}</h2>
+								<p>{{detail.para3}}</p>
+								<div class="button-align d-flex mb-5">
+									<button class="Book d-flex">Book now
+										<div class="play">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+												<style>
+												svg {
+													fill: #1da672
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+									<button class="read d-flex ">Read more
+										<div class="play1">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play">
+												<style>
+												svg {
+													fill: white
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item"> <img src="../../assets/teeth6.jpg" class="d-block w-100" alt="img-4">
+							<div class="carousel-caption d-md-block" *ngFor="let detail of dental">
+								<h1>{{detail.title4}}</h1>
+								<h2>{{detail.des4}}</h2>
+								<p>{{detail.para4}}</p>
+								<div class="button-align d-flex mb-5">
+									<button class="Book d-flex">Book now
+										<div class="play">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+												<style>
+												svg {
+													fill: #1da672
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+									<button class="read d-flex ">Read more
+										<div class="play1">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play">
+												<style>
+												svg {
+													fill: white
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item"> <img src="../../assets/teeth6.jpg" class="d-block w-100" alt="img-5">
+							<div class="carousel-caption d-md-block" *ngFor="let detail of dental">
+								<h1>{{detail.title5}}</h1>
+								<h2>{{detail.des5}}</h2>
+								<p>{{detail.para5}}</p>
+								<div class="button-align d-flex mb-5">
+									<button class="Book d-flex">Book now
+										<div class="play">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+												<style>
+												svg {
+													fill: #1da672
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+									<button class="read d-flex ">Read more
+										<div class="play1">
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="read-play">
+												<style>
+												svg {
+													fill: white
+												}
+												</style>
+												<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+											</svg>
+										</div>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col content-2">
+				<h4 class="mt-5">Book an Appointment</h4>
+				<form action="/action_page.php" class="pr-5">
+					<div class="row d-flex">
+						<div class="col">
+							<label>First Name:</label>
+							<input type="text" id="fname" name="firstname" placeholder="Your first name*"> </div>
+						<div class="col">
+							<label>Last Name:</label>
+							<input type="text" id="lname" name="lastname" placeholder="Your last name*"> </div>
+					</div>
+					<label>Your Email Address:</label>
+					<input type="email" id="email" name="email" placeholder="Your email address*">
+					<label>Contact No:</label>
+					<input type="tel" id="call" name="phone" placeholder="Your contact no*">
+					<div class="row d-flex">
+						<div class="col">
+							<label>Date:</label>
+							<input type="date" id="date" name="date" placeholder="Appointment Date*"> </div>
+						<div class="col">
+							<label>Time:</label>
+							<input type="time" id="time" name="time" placeholder="Appoiment Time*"> </div>
+					</div>
+					<div class="row d-flex justify-content-center mb-5 mt-5">
+						<button class="Book d-flex">Book now
+							<div class="play">
+								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+									<style>
+									svg {
+										fill: #1da672
+									}
+									</style>
+									<path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+								</svg>
+							</div>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
