@@ -9,6 +9,7 @@
 .content-2{
     background: #fff;
     margin-left: -10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 h1{
     color: white;
