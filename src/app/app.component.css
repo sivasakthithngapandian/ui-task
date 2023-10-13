@@ -1,72 +1,114 @@
-.navbar{background:#eefef5}.container-fluid{background:#eefef5;color:#245c54;margin:10px}.navbar-light .navbar-nav .nav-link{color:#245c54}.navbar-light .navbar-nav .navbar-light .navbar-nav .show .nav-link{color:gold !important;text-decoration:overline}.navbar-light .navbar-toggler{color:#245c54;border-color:#245c54}.collapse .navbar-collapse{padding:2rem 9%}.collapse .navbar-collapse{padding:2rem 9%}.header{text-align:justify}a:hover{text-decoration:overline;--color: goldenrod;}    a{
-    font-weight: bold;
-
+.navbar{
+    background:#eefef5
 }
-.sidebar{
-    width: 60px;
-    background: #245c54;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
+.container-fluid{
+    background:#eefef5;
+    color:#245c54;
+    margin:10px
 }
-.call{
-    background: #245c54 !important;
-    padding: 5px;
-    border-radius: 50%;
-    height: 30px;
+.navbar-light .navbar-nav .nav-link{
+    color:#245c54
 }
-li{
-    list-style: none;
-    
-} 
-.social{
-    bottom: 0;
-    position: absolute;
+.navbar-light .navbar-nav .nav-link:hover{
+    color: goldenrod;
 }
-.social li{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.navbar-light .navbar-nav .navbar-light .navbar-nav .show>.nav-link{
+    text-decoration:overline;
+    color: goldenrod;
 }
-svg{
-    height: 25px;
+.navbar-light .navbar-toggler{
+    color:#245c54;
+    border-color:#245c54
 }
-.nav-item{
-    justify-content: space-between;
+.collapse .navbar-collapse{
+    padding:2rem 9%
 }
-.social-icon:hover{
-background-color: #eefef5;
-border-radius: 50%;
-padding: 5px;
-height: 30px;
-width: 30px;
+.collapse .navbar-collapse{
+    padding:2rem 9%
 }
-ul {
-    padding-left: 1rem;
+.header{
+    text-align:justify
 }
-body{
-    background: #eefef5;
+a:hover{
+    text-decoration:overline;
+    color: goldenrod;
 }
-@media (max-width:992px){
-    .nav-link{
-        padding-left: 100px;
+a:active{
+    text-decoration:overline !important;
+    color: goldenrod !important;
+}
+ a{
+     font-weight: bold;
+}
+ .sidebar{
+     width: 60px;
+     background: #245c54;
+     height: 100%;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     overflow-x: hidden;
+     padding-top: 20px;
+}
+ .call{
+     background: #245c54 !important;
+     padding: 5px;
+     border-radius: 50%;
+     height: 30px;
+}
+ li{
+     list-style: none;
+}
+ .social{
+     bottom: 0;
+     position: absolute;
+}
+ .social li{
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+ svg{
+     height: 25px;
+}
+ .nav-item{
+     justify-content: space-between;
+}
+ .social-icon:hover{
+     background-color: #eefef5;
+     border-radius: 50%;
+     padding: 5px;
+     height: 30px;
+     width: 30px;
+}
+ ul {
+     padding-left: 1rem;
+}
+ body{
+     background: #eefef5;
+}
+ @media (max-width:992px){
+     .nav-link{
+         padding-left: 100px;
     }
-    .navbar>.container{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+     .navbar>.container{
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
     }
- 
 }
-@media (min-width:1200px){
-    .container-fluid{width:60vw;background:#eefef5;color:#245c54;margin-top:10px;margin-bottom:10px}
-    .container{display: none;}
-    .navbar-expand-lg .navbar-nav .nav-link{
-        padding-left: 7rem;
-        
+ @media (min-width:1200px){
+     .container-fluid{
+        width:60vw;
+        background:#eefef5;
+        color:#245c54;
+        margin-top:10px;
+        margin-bottom:10px
     }
-
+     .container{
+        display: none;
+    }
+     .navbar-expand-lg .navbar-nav .nav-link{
+         padding-left: 7rem;
+    }
 }

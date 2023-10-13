@@ -1,8 +1,6 @@
-
 .container{
     background: #eefef5;
 }
-
 .card{
     margin: 0px 10px 5px 10px;
     background: #eefef5;
@@ -18,7 +16,7 @@ h1{
 }
 h2{
     color: #1ca672;
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
 }
 button{
     background-color: #1ca672;
@@ -70,14 +68,13 @@ button{
     width: 25px;
     height: 25px;
     margin-left: 5px;
-  }
+}
 h4{
     text-align: center;
     color: #37aa81;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-
 input, select {
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -89,16 +86,15 @@ input, select {
     box-sizing: border-box;
     border-radius: 25px;
     background: #efefef;
-  }
-  
+}
 .input-container {
-    display: -ms-flexbox; 
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     align-items: center;
     margin-bottom: 15px;
-  }
-  input[type=submit] {
+}
+input[type=submit] {
     width: fit-content;
     align-items: center;
     background-color: #1ca672;
@@ -106,58 +102,55 @@ input, select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+input[type=submit]:hover {
     background-color: #efefef;
     color: #1ca672;
- 
-  }
-  .sbtn{
+}
+.sbtn{
     justify-content: center;
     align-items: center;
     background: #1ca672;
     width: 200px;
     border-radius: 25px;
-  }
-  .play{
+}
+.play{
     border-radius: 50%;
     background: #efefef;
     width: 25px;
     height: 25px;
     margin-left: 5px;
-  }
-  .play:hover{
+}
+.play:hover{
     background: #efefef;
-  }
-  label{
+}
+label{
     color: #969696;
     font-family: 'Roboto', sans-serif;
-  }
-  form{
+}
+form{
     padding: 20px 20px 0px 0px;
-  }
-  li svg:hover{
+}
+li svg:hover{
     background: white;
-  }
-  .sbtn:hover{
-background: #efefef;
-color: #37aa81;
-border: 2px solid #1ca672;
+}
+.sbtn:hover{
+    background: #efefef;
+    color: #37aa81;
+    border: 2px solid #1ca672;
 }
 @media(max-width:992px){
-
     .card{
         margin: 0px 0px 0px 50px;
         padding-left: 20px;
-    }
+   }
     .sbtn{
         width: 170px;
-      }
-  .col {
-    flex: none;
-}
-.read{
-    margin-top: 5px;
-}
+   }
+    .col {
+        flex: none;
+   }
+    .read{
+        margin-top: 5px;
+   }
 }
