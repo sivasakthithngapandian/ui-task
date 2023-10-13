@@ -1,0 +1,163 @@
+
+.container{
+    background: #eefef5;
+}
+
+.card{
+    margin: 0px 10px 5px 10px;
+    background: #eefef5;
+    border-style: none;
+}
+.content-2{
+    background: #fff;
+    margin-left: -10px;
+}
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color: #1ca672;
+    font-family: 'Roboto', sans-serif;   
+}
+button{
+    background-color: #1ca672;
+    color: white;
+    border-radius: 25px;
+    text-wrap: nowrap;
+    justify-content: center;
+    width: 170px;
+    padding: 5px 15px 5px 15px;
+    border-style: none;
+    margin-left: 5px;
+}
+.button-align{
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.Book:hover{
+    background: #fff;
+    color: #1ca672;
+    border: 2px solid #1ca672;
+    border-radius: 25px;
+}
+.read{
+    background-color: transparent;
+    color: #1ca672;
+    border-radius: 25px;
+    width: 170px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #1ca672;
+    margin-left: 5px;
+}
+.read:hover{
+    background: #37aa81;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #fff;
+}
+.play1 svg{
+    fill: #fff;
+    padding-left: 5px;
+}
+.play1{
+    border-radius: 50%;
+    background: #37aa81;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+  }
+h4{
+    text-align: center;
+    color: #37aa81;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-style: italic;
+    display: inline-block;
+    border:none;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #efefef;
+  }
+  
+.input-container {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  input[type=submit] {
+    width: fit-content;
+    align-items: center;
+    background-color: #1ca672;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #efefef;
+    color: #1ca672;
+ 
+  }
+  .sbtn{
+    justify-content: center;
+    align-items: center;
+    background: #1ca672;
+    width: 200px;
+    border-radius: 25px;
+  }
+  .play{
+    border-radius: 50%;
+    background: #efefef;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+  }
+  .play:hover{
+    background: #efefef;
+  }
+  label{
+    color: #969696;
+    font-family: 'Roboto', sans-serif;
+  }
+  form{
+    padding: 20px 20px 0px 0px;
+  }
+  li svg:hover{
+    background: white;
+  }
+  .sbtn:hover{
+background: #efefef;
+color: #37aa81;
+border: 2px solid #1ca672;
+}
+@media(max-width:992px){
+
+    .card{
+        margin: 0px 0px 0px 50px;
+        padding-left: 20px;
+    }
+    .sbtn{
+        width: 170px;
+      }
+  .col {
+    flex: none;
+}
+.read{
+    margin-top: 5px;
+}
+}

@@ -1,0 +1,37 @@
+
+[
+    {
+    "id": 1,
+    "title1": "Full Dedicated To Your",
+    "des1": "Dental Growth",
+    "para1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+    "id": 2,
+    "title2": "Full Dedicated To Your1",
+    "des2": "Dental Health2",
+    "para2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    },
+    {
+    "id": 3,
+    "title3": "Full Dedicated To Your2",
+    "des3": "Dental Health3",
+    "para3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    },
+    {
+     "id": 4,
+    "title4": "Full Dedicated To Your3",        
+    "des4": "Dental Health4",
+    "para4":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    
+    },
+    {
+    "id": 5,
+    "title5": "Full Dedicated To Your4",
+    "des5": "Dental Health5",
+    "para5":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+   ]
+   

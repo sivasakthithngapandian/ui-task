@@ -3,10 +3,12 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "resolveJsonModule": true,
     "types": []
   },
   "files": [
-    "src/main.ts"
+    "src/main.ts",
+    "src/assets/data.json"
   ],
   "include": [
     "src/**/*.d.ts"
