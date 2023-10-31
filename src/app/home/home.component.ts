@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import * as data from '../../assets/data.json';
+/*import * as data from '../../assets/data.json';*/
+import * as data from '../../assets/cars_data.json';
 
 @Component({
   selector: 'app-home',
@@ -9,5 +10,5 @@ import * as data from '../../assets/data.json';
 export class HomeComponent {
 
   dental: any = (data as any).default;
-
+  cars: any = (data as any).default;
 }

@@ -1,157 +1,307 @@
-.container{
-    background: #eefef5;
-}
-.card{
-    margin: 0px 10px 5px 10px;
-    background: #eefef5;
-    border-style: none;
-}
-.content-2{
-    background: #fff;
-    margin-left: -10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+.d-block{
+    width: 200px;
 }
 h1{
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.head{
+    text-align: center;
+    color: #fff;
 }
 h2{
-    color: #1ca672;
-    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
 }
-button{
-    background-color: #1ca672;
-    color: white;
-    border-radius: 25px;
-    text-wrap: nowrap;
-    justify-content: center;
-    width: 170px;
-    padding: 5px 15px 5px 15px;
-    border-style: none;
-    margin-left: 5px;
+.container .carousel .carousel-item{
+    padding: 2px 100px 2px 100px;
 }
-.button-align{
-    flex-wrap: wrap;
+.car-details{
+    margin-top: 10px;
     flex-direction: row;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: 2px;
+    padding-left: 36%;
+    padding-right: 33%;
 }
-.Book:hover{
-    background: #fff;
-    color: #1ca672;
-    border: 2px solid #1ca672;
-    border-radius: 25px;
-}
-.read{
-    background-color: transparent;
-    color: #1ca672;
-    border-radius: 25px;
-    width: 170px;
-    padding: 5px 15px 5px 15px;
-    border: 2px solid #1ca672;
-    margin-left: 5px;
-}
-.read:hover{
-    background: #37aa81;
+.colorP{
     color: #fff;
-    border-radius: 25px;
-    border: 2px solid #fff;
-}
-.play1 svg{
-    fill: #fff;
-    padding-left: 5px;
-}
-.play1{
-    border-radius: 50%;
-    background: #37aa81;
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-}
-h4{
-    text-align: center;
-    color: #37aa81;
-    font-family: 'Roboto', sans-serif;
+    font-size: larger;
     font-weight: bold;
+    text-align: center;
 }
-input, select {
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    padding: 12px 20px;
-    margin: 8px 0;
-    font-style: italic;
-    display: inline-block;
-    border:none;
-    box-sizing: border-box;
+.colorG{
+    color: lightgray;
+    margin-top: -10px;
+    text-align: center;
+}
+.center{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-center{
+    text-align: center;
+    color: #fff;
+}
+.machine{
+    padding: 5px 220px 5px 220px;
+}
+.machinep{
+    color: #535558;
+}
+.machineH{
+    text-align: start !important;
+}
+.card{
+
+    box-shadow: none;
     border-radius: 25px;
-    background: #efefef;
+    border-style: none;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    margin-top: -50px;
+    padding: 5px;
+    opacity: .2;
+    margin-left: 281px;
 }
-.input-container {
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 15px;
-}
-input[type=submit] {
-    width: fit-content;
-    align-items: center;
-    background-color: #1ca672;
-    color: white;
+.KnowBtn{
+    background:#4177dc;
+    color: #fff;
     border: none;
+    padding: 10px;
+    width: 170px;
     border-radius: 4px;
-    cursor: pointer;
 }
-input[type=submit]:hover {
-    background-color: #efefef;
-    color: #1ca672;
+.Porsche{
+    background: #0a0a0b;
 }
-.sbtn{
+.Porsche-title{
+    text-align: center !important;
+    color: #fff;
+}
+.Porsche{
+    margin-top: 10rem;
+
+}
+.card-porsche{
+    background-image: linear-gradient(to bottom right, #212a39, black);
+    border-radius: 20px;
+    padding: 10px;
+    width: 262px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+.colorW{
+    color: #fff;
+}
+.slide-img{
+    margin-left: 32px;
+    margin-top: 50px;
+}
+.carousel-item{
+    padding: 5px 220px 5px 220px;
+}
+.carousel-indicators {
+    margin-bottom: -2rem !important;
+}
+.carousel-inner{
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+.all{
+    background: #0a0a0b;
+    color: lightgrey;
+    border:1px solid rgb(72, 72, 72);
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.all:hover{
+    background: #4177dc;
+    color: white;
+    border-radius: 4px;
+}
+.car{
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    margin-top: -46%;
+    margin-left: 38%;
+}
+.back{
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+}
+.logo3{
+    width: 20px;
+}
+.logo4{
+    width: 20px;
+}
+.logo2{
+    width: 20px;
+}
+.featured-car{
+ width: 60%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 30px;
+}
+.card-porsche2{
+    background-image: linear-gradient(to bottom right, #212a39, black);
+    border-radius: 20px;
+    padding: 10px;
+    width: 262px;
+    margin-left: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.special-offer{
+    background-image: url(../../assets/Imgs/Imgs/Car_bg.png);
+    padding: 5px 220px 5px 220px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.spl{
+    text-align: start;
+    margin-top: 20px;
+}
+.footer{
+    padding: 5px 220px 5px 220px;
+}
+.footer-logo{
+    width: 150px;
+}
+.footer-p{
+    color: #c7c7c7;
+}
+li{
+    list-style: none;
+    margin-top: 15px;
+}
+.footer-right{
+    text-align: center;
+    justify-content: center;
+}
+.footer-head{
+    text-align: start;
+}
+.footer-logo-img{
+    padding: 5px 220px 5px 220px;
+}
+
+
+
+
+@media (max-width:992px){
+    .car-home{
+        display: none;
+    }
+    
+.car-details {
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
     align-items: center;
-    background: #1ca672;
-    width: 200px;
-    border-radius: 25px;
-}
-.play{
-    border-radius: 50%;
-    background: #efefef;
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-}
-.play:hover{
-    background: #efefef;
-}
-label{
-    color: #969696;
-    font-family: 'Roboto', sans-serif;
-}
-form{
-    padding: 20px 20px 0px 0px;
-}
-li svg:hover{
-    background: white;
-}
-.sbtn:hover{
-    background: #efefef;
-    color: #37aa81;
-    border: 2px solid #1ca672;
-}
-@media(max-width:992px){
+    padding-left: 16%;
+    padding-right: 16%;
+    }
+    .mob-caro1{
+        display: flex;
+    }
+.carousel-item{
+        padding: 2px 50px 2px 50px;
+    }
+    .mob-caro{
+        flex: 0 0 calc(100%/3);
+        display: block;
+    }
+    .mob-caro2{
+        flex-wrap: nowrap;
+    }
+    .machine{
+        padding: 5px 10px 5px 10px;
+    }
+    .steer{
+        width: 350px;
+    }
     .card{
-        margin: 0px 0px 0px 50px;
-        padding-left: 20px;
-   }
-    .sbtn{
-        width: 170px;
-   }
-    .col {
-        flex: none;
-   }
-    .read{
-        margin-top: 5px;
-   }
+
+        box-shadow: none;
+        border-radius: 25px;
+        border-style: none;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        margin-top: -50px;
+        padding: 5px;
+        opacity: .2;
+        margin-left: 150px;
+    }
+    .machine{
+        padding: 5px 10px 5px 10px;
+    }
+    .machineH{
+        margin-top: 100px;
+    }
+    .car-back-img{
+        width: 300px;
+    }
+    h1{
+        font-size: medium;
+    }
+    .special-offer{
+        padding: 5px 10px 5px 10px;
+        margin-top: 30px;
+    }
+    .footer-img{
+        width: 30px;
+        margin-top: 10px;
+    }
+    .splOffer{
+        align-items: center;
+        justify-content: center;
+
+    }
+    .spl{
+        text-align: center;
+    }
+    .col-5{
+        width: 68%;
+    }
+    .footer{
+        padding: 5px 50px 5px 50px;
+    }
+    .footer-logo-img{
+        padding: 5px 100px 5px 100px;
+    }
+    .footer-col-size{
+        flex: 100%;
+    }
+    li{
+        font-size: 10px;
+    }
+}
+
+@media (min-width:990px){
+    .front-car{
+        display: none;
+    }
 }

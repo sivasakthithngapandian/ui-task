@@ -2,12 +2,16 @@
     height: 600px;
 }
 .carousel-indicators [data-bs-target] {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 }
 .d-none{
     display: block;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    color: #4076d9 !important;
 }
 @media(max-width:992px){
     .w-100{
