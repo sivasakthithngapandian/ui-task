@@ -1,19 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-	<div class="container-fluid" >
-		<a> <img src="assets/Imgs/Imgs/logo.png"routerLink="" class="logo"></a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
-		aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		<i class="fa-solid fa-bars" style="color: #ffffff;" *ngIf="navBaricon" (click)="menuclick()"></i>
-		  <span class="navbar-toggler-icon" ></span>
-		  <span class="fa fa-close" id="form-close" *ngIf="!navBaricon" (click)="menuclick()"></span>
-		</button>
-	  </div>
-	<!--<div class="container-fluid">
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> 
-			<span class="navbar-toggler-icon" *ngIf="navBaricon" (click)="menuclick()"></span> 
-			<span class="fa fa-close" id="form-close" *ngIf="!navBaricon" (click)="menuclick()"></span> 
-		</button>
-	</div>-->
+	<div class="container-fluid">
+		<a> <img src="assets/Imgs/Imgs/logo.png" routerLink="" class="logo"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa-solid fa-bars" style="color: #ffffff;" *ngIf="navBaricon" (click)="menuclick()"></i> <span class="navbar-toggler-icon"></span> <span class="fa fa-close" id="form-close" *ngIf="!navBaricon" (click)="menuclick()"></span> </button>
+	</div>
 	<div class="collapse navbar-collapse " id="navbarNavDropdown" *ngIf="navBarContent">
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item ml-auto" (click)="navebarefale()"> <a class="nav-link active" aria-current="page" (click)="goToHome()">Home</a> </li>
